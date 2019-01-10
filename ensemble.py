@@ -127,4 +127,6 @@ if n_features == 1:
 	plt.ylim(top=np.max(y_test))  
 	plt.ylim(bottom=np.min(y_test))
 
+	fig.tight_layout()
+
 	plt.show()
