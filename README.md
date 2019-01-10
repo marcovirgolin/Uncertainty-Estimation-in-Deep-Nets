@@ -1,4 +1,4 @@
-# Predictive Uncertainty Estimation with Neural Networks
+# Predictive Uncertainty Estimation in Deep Nets
 
 ## Ensemble.py
 The code in `ensemble.py` attempts to reproduce the toy example described in the paper:
