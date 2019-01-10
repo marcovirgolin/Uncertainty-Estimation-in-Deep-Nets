@@ -34,7 +34,7 @@ class KerasDropoutPrediction(object):
 
 
 def read_external_dataset(path):
-	dataset = np.loadtxt('datasets/rw/yacht_full.dat')
+	dataset = np.loadtxt(path)
 	dataset = preprocessing.scale(dataset)
 	n_features = dataset.shape[1] - 1
 	train, test = train_test_split(dataset, test_size=0.25, random_state=42)
